@@ -1,0 +1,178 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+
+html, body{
+    margin: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+
+}
+/* ------------- Global bar ------------ */
+a{
+    text-decoration: none;
+    font-size: medium;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.site-content{
+    display: flex;
+    padding: 0 2rem;
+    gap: 2rem;
+    
+}
+#content-text{
+    display: flex;
+    gap: 100px;
+}
+.site-creative{
+    display: flex;
+    padding: 15px 30px;
+    gap: 20px;
+}
+.index{
+    padding: 0 100px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+/* -----x------- Global bar ------x----- */
+
+/* -------------navbar----------- */
+.nav {
+    background: white;
+    padding: 0 2rem;
+    height: 0rem;
+    min-height: 20vh;
+    overflow: hidden;
+}
+
+.nav .nav-brand {
+    padding: 2rem 0;
+    
+}
+.card{
+    display: flex;
+    gap: 21px;
+    padding: 10px 0;
+}
+
+.nav .nav-items{
+    display: flex;
+    margin: 0;
+}
+
+.nav .nav-menu {
+    gap: 496px;
+    
+}
+
+.nav .nav-items .nav-link{
+    padding: 1.6rem 1rem;
+    font-size: 1.1rem;
+}
+
+/* ------x------navbar------x---- */
+
+.site-log {
+    
+    
+    height: 40vh;
+    width: 45rem;
+    background-image: url(assets/images/image-web-3-desktop.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 1px;
+    margin-inline-end: auto;
+    overflow: visible;
+    border-radius: 0.2rem;
+    border-style: groove;
+    border-width: 0.rem;
+}
+
+.site-text{
+    width: 300px;
+    padding: 0 2rem;
+    background-color: hsl(240, 100%, 5%);
+}
+
+.orange{
+    color: hsl(35, 77%, 62%);
+}
+
+.white{
+    color: white;
+}
+
+p{
+    font-size: 13px;
+}
+
+.text-header{
+    padding: 5px 0;
+}
+.text2{
+    width: 260px;
+    padding: 30px 0;
+}
+
+#main-text{
+    font-size: 40px;
+    /* font-weight: 1000; */
+}
+.text{
+    width: 300px;
+}
+button {
+    background-color: hsl(5, 85%, 63%); /* Green background */
+    border: 1px solid hsl(5, 85%, 63%); /* Green border */
+    color: white; /* White text */
+    padding: 8px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+  }
+
+.button-container{
+    padding: 15px 0;
+}
+
+
+#first{
+    height: 17.5vh;
+    width: 9rem;
+    background-size: cover;
+    background-image: url(./assets/images/image-retro-pcs.jpg);
+}
+#second{
+    height: 17.5vh;
+    width: 9rem;
+    background-size: cover;
+    background-image: url(./assets/images/image-top-laptops.jpg);
+}
+#third{
+    height: 17.5vh;
+    width: 9rem;
+    background-size: cover;
+    background-image: url(./assets/images/image-gaming-growth.jpg);
+}
+
+.picture {
+   margin: 25px 0; 
+}
+
